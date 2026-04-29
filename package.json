@@ -1,0 +1,21 @@
+{
+  "name": "guitarsnetlify",
+  "version": "1.0.0",
+  "description": "Simple Netlify serverless function app for Noroff Server Deployment Module 3.2",
+  "main": "index.js",
+ "scripts": {
+  "start": "netlify dev --dir=dist --functions=functions"
+},
+  "keywords": [
+    "netlify",
+    "serverless",
+    "noroff",
+    "deployment"
+  ],
+  "author": "Mattis Holmen Bjørnsen",
+  "license": "ISC",
+  "dependencies": {
+    "netlify-cli": "^17.38.1",
+    "uuid": "^9.0.1"
+  }
+}
